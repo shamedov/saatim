@@ -1,0 +1,26 @@
+[Thu Dec 01 10:25:32.176272 2016] [authz_core:error] [pid 3812:tid 1728] [client 127.0.0.1:49206] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 10:25:40.783969 2016] [authz_core:error] [pid 3812:tid 1728] [client 127.0.0.1:49209] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 10:27:00.882613 2016] [authz_core:error] [pid 3928:tid 1740] [client 127.0.0.1:49224] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 10:39:13.092186 2016] [authz_core:error] [pid 4472:tid 1736] [client 127.0.0.1:49354] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 10:49:32.311511 2016] [authz_core:error] [pid 4472:tid 1724] [client 127.0.0.1:49469] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 10:53:19.841151 2016] [authz_core:error] [pid 4472:tid 1696] [client 127.0.0.1:49527] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 10:53:39.683663 2016] [authz_core:error] [pid 4472:tid 1696] [client 127.0.0.1:49532] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 11:10:25.107479 2016] [authz_core:error] [pid 4472:tid 1696] [client 127.0.0.1:49702] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 16:43:13.378196 2016] [authz_core:error] [pid 6132:tid 1712] [client 127.0.0.1:61999] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Thu Dec 01 16:43:13.668214 2016] [authz_core:error] [pid 6132:tid 1712] [client 127.0.0.1:61999] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://blog.local/
+[Thu Dec 01 16:43:37.859056 2016] [authz_core:error] [pid 6132:tid 1724] [client 127.0.0.1:62031] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/dashboard
+[Thu Dec 01 16:43:38.130037 2016] [authz_core:error] [pid 6132:tid 1724] [client 127.0.0.1:62031] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://www.blog.local/dashboard/
+[Thu Dec 01 16:57:34.427170 2016] [authz_core:error] [pid 6132:tid 1724] [client 127.0.0.1:62110] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/dashboard
+[Thu Dec 01 16:57:34.700174 2016] [authz_core:error] [pid 6132:tid 1724] [client 127.0.0.1:62110] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://www.blog.local/dashboard/
+[Thu Dec 01 17:03:44.989346 2016] [authz_core:error] [pid 6132:tid 1700] [client 127.0.0.1:59731] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/dashboard
+[Thu Dec 01 17:03:45.259363 2016] [authz_core:error] [pid 6132:tid 1700] [client 127.0.0.1:59731] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://www.blog.local/dashboard/
+[Thu Dec 01 17:47:10.636208 2016] [authz_core:error] [pid 6132:tid 1736] [client 127.0.0.1:60112] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/index.php
+[Thu Dec 01 17:47:10.752218 2016] [authz_core:error] [pid 6132:tid 1736] [client 127.0.0.1:60112] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://www.blog.local/index.php/
+[Fri Dec 02 11:48:36.895017 2016] [authz_core:error] [pid 5172:tid 1712] [client 127.0.0.1:63336] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/dashboard
+[Fri Dec 02 11:48:37.138032 2016] [authz_core:error] [pid 5172:tid 1712] [client 127.0.0.1:63336] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://www.blog.local/dashboard/
+[Fri Dec 02 11:48:37.338291 2016] [authz_core:error] [pid 5172:tid 1712] [client 127.0.0.1:63336] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/dashboard
+[Fri Dec 02 11:48:37.613308 2016] [authz_core:error] [pid 5172:tid 1712] [client 127.0.0.1:63336] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://www.blog.local/dashboard/
+[Fri Dec 02 16:51:29.790678 2016] [authz_core:error] [pid 6640:tid 1732] [client 127.0.0.1:54678] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/
+[Fri Dec 02 16:51:30.058693 2016] [authz_core:error] [pid 6640:tid 1732] [client 127.0.0.1:54678] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://blog.local/
+[Sun Dec 04 21:02:16.925090 2016] [authz_core:error] [pid 3652:tid 1724] [client 127.0.0.1:52166] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/dashboard
+[Sun Dec 04 21:02:17.330288 2016] [authz_core:error] [pid 3652:tid 1724] [client 127.0.0.1:52166] AH01630: client denied by server configuration: C:/my_projects/blog.local/www/favicon.ico, referer: http://www.blog.local/dashboard/

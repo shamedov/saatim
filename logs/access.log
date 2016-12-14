@@ -1,0 +1,26 @@
+127.0.0.1 - - [01/Dec/2016:10:25:32 +0400] "HEAD / HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:10:25:40 +0400] "HEAD / HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:10:27:00 +0400] "HEAD / HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:10:39:13 +0400] "HEAD / HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:10:49:32 +0400] "HEAD / HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:10:53:19 +0400] "HEAD / HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:10:53:39 +0400] "HEAD / HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:11:10:25 +0400] "HEAD / HTTP/1.1" 403 - "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:16:43:13 +0400] "GET / HTTP/1.1" 403 1057 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:16:43:13 +0400] "GET /favicon.ico HTTP/1.1" 403 1043 "http://blog.local/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:16:43:37 +0400] "GET /dashboard/ HTTP/1.1" 403 1061 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:16:43:38 +0400] "GET /favicon.ico HTTP/1.1" 403 1047 "http://www.blog.local/dashboard/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:16:57:34 +0400] "GET /dashboard/ HTTP/1.1" 403 1061 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:16:57:34 +0400] "GET /favicon.ico HTTP/1.1" 403 1047 "http://www.blog.local/dashboard/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:17:03:44 +0400] "GET /dashboard/ HTTP/1.1" 403 1061 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:17:03:45 +0400] "GET /favicon.ico HTTP/1.1" 403 1047 "http://www.blog.local/dashboard/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:17:47:10 +0400] "GET /index.php/ HTTP/1.1" 403 1061 "-" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [01/Dec/2016:17:47:10 +0400] "GET /favicon.ico HTTP/1.1" 403 1047 "http://www.blog.local/index.php/" "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36"
+127.0.0.1 - - [02/Dec/2016:11:48:36 +0400] "GET /dashboard/ HTTP/1.1" 403 1061
+127.0.0.1 - - [02/Dec/2016:11:48:37 +0400] "GET /favicon.ico HTTP/1.1" 403 1047
+127.0.0.1 - - [02/Dec/2016:11:48:37 +0400] "GET /dashboard/ HTTP/1.1" 403 1061
+127.0.0.1 - - [02/Dec/2016:11:48:37 +0400] "GET /favicon.ico HTTP/1.1" 403 1047
+127.0.0.1 - - [02/Dec/2016:16:51:29 +0400] "GET / HTTP/1.1" 403 1057
+127.0.0.1 - - [02/Dec/2016:16:51:30 +0400] "GET /favicon.ico HTTP/1.1" 403 1043
+127.0.0.1 - - [04/Dec/2016:21:02:16 +0400] "GET /dashboard/ HTTP/1.1" 403 1061
+127.0.0.1 - - [04/Dec/2016:21:02:17 +0400] "GET /favicon.ico HTTP/1.1" 403 1047

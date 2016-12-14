@@ -1,0 +1,128 @@
+@import "standart";
+#header{
+
+
+	padding:0;
+
+	.topNav{
+
+		.navInfo{
+			padding:15px;
+			margin-bottom: 0;
+			border-radius: 0;
+			.logo{
+			width: 100px;
+			float: left;
+
+				img{
+					width:100%;
+					
+				}
+			}
+			ul{
+				padding: 20px 10px;
+				margin-left: 15px;
+				float: left;
+				li{
+					display: inline-block;
+
+					a{
+						color: $white;
+						text-decoration: none;
+						padding: 10px 10px;
+						text-transform: uppercase;
+
+						&:hover{
+							background: white;
+							color:black;
+						}
+					}
+				}
+			}
+			.search{
+				padding-top: 13px;
+
+				input{
+					padding:5px;
+					outline-style: none;
+					border:none;
+				}
+			}
+		}
+	}
+	.clock{
+		padding:0;
+		height: 475px;
+		background: url("../_img/clock.jpg");
+		
+		background-size:cover;
+		background-position: center;
+	}
+}
+#centre{
+	//category
+	#category{
+		height: 400px;
+		background: #535353;
+		padding: 30px;
+
+		.categoryLogo{
+			text-align: center;
+			img{
+				width: 100%;
+				
+			}
+		}
+		ul{
+			
+			a{
+				text-decoration: none;
+				text-transform: uppercase;
+				background: #999999;
+				color:$white;
+
+				li{
+					border-bottom: 1px solid grey;
+					padding:10px;
+
+					&:hover{
+						background: darken( #999999, 10%)
+					}
+				}
+			}
+			
+		}
+	}
+
+	//content
+	#content{
+		
+		background: #262626;
+
+		.product{
+			padding: 30px;
+
+			.psaat{
+				height: 390px;
+				background: $white;
+				background: -webkit-linear-gradient(0deq,$white,$black);
+
+				a{
+					div{
+						height: 300px;
+						img{
+							max-height:100%;
+							max-width: 100%;
+						}
+					}
+					
+				}
+			}
+		}
+	}	
+}
+	
+#footer{
+	height: 100px;
+	background: #CCCCCC;
+}

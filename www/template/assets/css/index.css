@@ -1,0 +1,81 @@
+body {
+  background: url("../_img/vertical.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#header {
+  padding: 0; }
+  #header .topNav .navInfo {
+    padding: 15px;
+    margin-bottom: 0;
+    border-radius: 0; }
+    #header .topNav .navInfo .logo {
+      width: 100px;
+      float: left; }
+      #header .topNav .navInfo .logo img {
+        width: 100%; }
+    #header .topNav .navInfo ul {
+      padding: 20px 10px;
+      margin-left: 15px;
+      float: left; }
+      #header .topNav .navInfo ul li {
+        display: inline-block; }
+        #header .topNav .navInfo ul li a {
+          color: white;
+          text-decoration: none;
+          padding: 10px 10px;
+          text-transform: uppercase; }
+          #header .topNav .navInfo ul li a:hover {
+            background: white;
+            color: black; }
+    #header .topNav .navInfo .search {
+      padding-top: 13px; }
+      #header .topNav .navInfo .search input {
+        padding: 5px;
+        outline-style: none;
+        border: none; }
+  #header .clock {
+    padding: 0;
+    height: 475px;
+    background: url("../_img/clock.jpg");
+    background-size: cover;
+    background-position: center; }
+
+#centre #category {
+  height: 400px;
+  background: #535353;
+  padding: 30px; }
+  #centre #category .categoryLogo {
+    text-align: center; }
+    #centre #category .categoryLogo img {
+      width: 100%; }
+  #centre #category ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #999999;
+    color: white; }
+    #centre #category ul a li {
+      border-bottom: 1px solid grey;
+      padding: 10px; }
+      #centre #category ul a li:hover {
+        background: gray; }
+#centre #content {
+  background: #262626; }
+  #centre #content .product {
+    padding: 30px; }
+    #centre #content .product .psaat {
+      height: 390px;
+      background: white;
+      background: -webkit-linear-gradient(0deq, white, black); }
+      #centre #content .product .psaat a div {
+        height: 300px; }
+        #centre #content .product .psaat a div img {
+          max-height: 100%;
+          max-width: 100%; }
+
+#footer {
+  height: 100px;
+  background: #CCCCCC; }
+
+/*# sourceMappingURL=index.css.map */
