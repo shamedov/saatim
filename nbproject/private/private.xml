@@ -5,11 +5,11 @@
         <group>
             <file>file:/C:/xampp/htdocs/saatim.local/www/views/site/index.php</file>
             <file>file:/C:/xampp/htdocs/saatim.local/www/controllers/SiteController.php</file>
-            <file>file:/C:/xampp/htdocs/saatim.local/www/components/Router.php</file>
-            <file>file:/C:/xampp/htdocs/saatim.local/www/config/routes.php</file>
-            <file>file:/C:/xampp/htdocs/saatim.local/www/.htaccess</file>
-            <file>file:/C:/xampp/htdocs/saatim.local/www/index.php</file>
-            <file>file:/C:/xampp/htdocs/saatim.local/www/controllers/BlogController.php</file>
+            <file>file:/C:/xampp/htdocs/saatim.local/www/views/product/view.php</file>
+            <file>file:/C:/xampp/htdocs/saatim.local/www/models/Category.php</file>
+            <file>file:/C:/xampp/htdocs/saatim.local/www/config/db_params.php</file>
+            <file>file:/C:/xampp/htdocs/saatim.local/www/components/db.php</file>
+            <file>file:/C:/xampp/htdocs/saatim.local/www/models/Product.php</file>
         </group>
     </open-files>
 </project-private>

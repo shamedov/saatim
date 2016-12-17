@@ -1,8 +1,9 @@
-<?php
+ <section id="footer" class= "col-md-12">
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+            </section>	
+	</section>
 
+	<script src="assets/js/jquery-3.1.0.min.js"></script>
+	<script src="assets/js/index.js"></script>
+</body>
+</html>

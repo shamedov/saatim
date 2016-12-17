@@ -69,7 +69,8 @@ body {
       background: white;
       background: -webkit-linear-gradient(0deq, white, black); }
       #centre #content .product .psaat a div {
-        height: 300px; }
+        height: 300px;
+        padding:10px;}
         #centre #content .product .psaat a div img {
           max-height: 100%;
           max-width: 100%; }

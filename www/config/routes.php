@@ -1,8 +1,9 @@
 <?php 
     return array(
         
-        'index.php'=>'site/index',
-        '' =>'site/index',//actionIndex в SiteController
+        'product/([0-9]+)'=>'product/view/$1',
+        'index.php' =>'site/index',//actionIndex в SiteController
+        '^$'=>'site/index',
 
         );
 
