@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,UAAU,EAAE,2BAA2B;EACvC,qBAAqB,EAAE,KAAK;EAC5B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK",
+"sources": ["../../sass/partials/standart.scss"],
+"names": [],
+"file": "standart.css"
+}

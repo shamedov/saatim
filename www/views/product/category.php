@@ -32,12 +32,12 @@
 
                         <!-- контент-->
                         <section id="content" class="pull-right col-md-9">
-                            <?php foreach ($latestProducts as $product): ?>
+                            <?php foreach ($categoryProducts as $product): ?>
                                 <div class="col-md-4 product">
                                     <div class="psaat text-center">
                                         <a href="/product/<?php echo $product['id']; ?>" >
                                             <div>
-                                                <img src="template/assets/_img/1product.jpg">
+                                                <img src="/template/assets/_img/1product.jpg">
                                             </div>
                                         </a>
                                         <div>
@@ -50,10 +50,9 @@
                                             <button>sebete at</button>
                                         </div>
                                     </div>
-
+                                    
                                 </div>
                             <?php endforeach; ?>
-
 
                         </section>
 
@@ -66,3 +65,4 @@
             <!-- end-->
 
      <?php include ROOT.'/views/layouts/footer.php'; ?>      
+

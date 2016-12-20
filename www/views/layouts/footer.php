@@ -1,4 +1,4 @@
- <section id="footer" class= "col-md-12">
+             <section id="footer" class= "col-md-12">
 
             </section>	
 	</section>

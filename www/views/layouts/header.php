@@ -19,13 +19,13 @@
                     <div class="topNav">
                         <nav class="navbar navbar-inverse navInfo">
                             <div class="logo">
-                                <a href="#">
-                                    <img src="template/assets/_img/Levi's_logo.png">
+                                <a href="/">
+                                    <img src="/template/assets/_img/Levi's_logo.png">
                                 </a>
                             </div>
 
                              <ul>
-                               <li><a href="#">home</a></li>
+                               <li><a href="/">home</a></li>
                                <li><a href="#">contacts</a></li>
                                <li><a href="#">we are</a></li>
                              </ul>
