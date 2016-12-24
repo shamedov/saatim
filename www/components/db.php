@@ -14,7 +14,9 @@ class Db
         $db->exec("set names utf8");
         
         return $db;
+        
     }
-
+    
 }
+
 
