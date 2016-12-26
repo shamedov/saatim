@@ -1,6 +1,6 @@
 <?php
-include_once ROOT.'/models/Product.php';
-include_once ROOT.'/components/db.php';
+
+
 class Product
 {
     const SHOW_BY_DEFAULT =3;
@@ -37,7 +37,6 @@ class Product
         if($categoryId){
             $page = intval($page);
             $offset = ($page -1) * self::SHOW_BY_DEFAULT;
-            var_dump($page);
 
             $db= Db::getConnection();
             $products=array();
@@ -72,5 +71,27 @@ class Product
             
             return $result->fetch();
         }
+    }
+    public static function getTotalLatestProduct()
+    {
+        $db = Db::getConnection();
+
+        $result = $db->query ('SELECT count(id) AS count FROM product '
+            . 'WHERE status="1"');
+        $result->setFetchMode(PDO::FETCH_ASSOC);
+        $row=$result->fetch();
+
+        return $row['count'];
+    }
+    public static function getTotalProductsInCategory($categoryId)
+    {
+        $db = Db::getConnection();
+
+        $result = $db->query('SELECT count(id) AS count FROM product '
+            . 'WHERE status="1" AND category_id ="'.$categoryId.'"');
+        $result->setFetchMode(PDO::FETCH_ASSOC);
+        $row = $result->fetch();
+
+        return $row['count'];
     }
 }

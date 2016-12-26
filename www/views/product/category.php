@@ -53,7 +53,8 @@
                                     
                                 </div>
                             <?php endforeach; ?>
-
+                            <div class="clearfix"></div>
+                            <div><?php echo $pagination->get();?></div>
                         </section>
 
                         <!--end-->

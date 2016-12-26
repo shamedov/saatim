@@ -32,7 +32,7 @@
 
                              <ul class="pull-right">
                                 <li><a href="#">sign in</a></li>
-                                <li><a href="#">registration</a></li>
+                                <li><a href="/user/register">registration</a></li>
                              </ul>
 
                              <form method="POST" class="search">

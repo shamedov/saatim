@@ -1,6 +1,5 @@
 <?php
-include_once ROOT . '/models/Category.php';
-include_once ROOT . '/models/Product.php';
+
 class SiteController
 {
     public function actionIndex($page = 1)
@@ -10,6 +9,10 @@ class SiteController
         
         $latestProducts = array();
         $latestProducts = Product::getLatestProducts($page);
+
+        $total =Product::getTotalLatestProduct();
+
+        $pagination = new Pagination($total,$page,Product::SHOW_BY_DEFAULT,'page-');
         
         require_once(ROOT. '/views/site/index.php');
         
@@ -23,7 +26,9 @@ class SiteController
         
         $categoryProducts = array();
         $categoryProducts = Product::getProductsListByCategory($categoryId,$page);
-        
+
+        $total = Product::getTotalProductsInCategory($categoryId);
+        $pagination = new Pagination($total, $page, Product::SHOW_BY_DEFAULT, 'page-');
         require_once(ROOT. '/views/product/category.php');
         
         return true;
