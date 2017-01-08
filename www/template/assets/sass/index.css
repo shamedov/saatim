@@ -4,6 +4,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.cabinet h1 {
+  font-size: 20px;
+  color: white; }
+
+body {
+  background: url("../_img/vertical.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 #header {
   padding: 0; }
   #header .topNav .navInfo {
@@ -78,4 +88,4 @@ body {
   height: 100px;
   background: #CCCCCC; }
 
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=index.css.map */

@@ -47,7 +47,7 @@
                                                 </h5>
                                             </a>
                                             <h3><?php echo $product['price'] ?>azn</h3>
-                                            <button>sebete at</button>
+                                            <button class="add-to-cart" data-id = "<?php echo $product['id'];?>">sebete at</button>
                                         </div>
                                     </div>
 

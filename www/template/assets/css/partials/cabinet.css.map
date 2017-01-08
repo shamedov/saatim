@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACH,UAAU,EAAE,2BAA2B;EACvC,qBAAqB,EAAE,KAAK;EAC5B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;;ACArB,WAAE;EACA,SAAS,EAAC,IAAI;EACd,KAAK,EDCF,KAAK;ACCV,UAAE;EACA,OAAO,EAAE,KAAK;EACd,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,UAAU;EACjB,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,IAAI",
+"sources": ["../../sass/partials/standart.scss","../../sass/partials/cabinet.scss"],
+"names": [],
+"file": "cabinet.css"
+}

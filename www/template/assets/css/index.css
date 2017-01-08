@@ -4,6 +4,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.cabinet h1 {
+  font-size: 20px;
+  color: white; }
+.cabinet a {
+  display: block;
+  text-decoration: none;
+  color: blueviolet;
+  margin: 10px;
+  font-size: 18px; }
+
+body {
+  background: url("../_img/vertical.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 #header {
   padding: 0; }
   #header .topNav .navInfo {

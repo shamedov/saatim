@@ -1,0 +1,16 @@
+@import "standart";
+
+.cabinet{
+
+  h1{
+    font-size:20px;
+    color: $white;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: blueviolet;
+    margin: 10px;
+    font-size: 18px;
+  }
+}

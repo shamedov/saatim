@@ -18,4 +18,5 @@
                 </p>
                 <h5><?php echo $product['price']; ?></h5>
             </div>
+            <button class="add-to-cart" data-id = "<?php echo $product['id'];?>">sebete at</button>
 <?php include (ROOT.'/views/layouts/footer.php'); ?>

@@ -31,8 +31,14 @@
                              </ul>
 
                              <ul class="pull-right">
-                                <li><a href="#">sign in</a></li>
-                                <li><a href="/user/register">registration</a></li>
+                                 <?php if(isset($_SESSION['user'])):?>
+                                     <li><a href="/cabinet">Akkaunt</a></li>
+                                     <li><a href="/user/logout">log Out</a></li>
+                                 <?php else: ?>
+                                     <li><a href="/user/login">sign in</a></li>
+                                    <li><a href="/user/register">registration</a></li>
+                                 <?php endif; ?>
+                                 <li><a href="/cart">sebet <span id="cart-count">(<?php echo Cart::countItems();?>)</span></a></li>
                              </ul>
 
                              <form method="POST" class="search">

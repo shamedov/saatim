@@ -58,4 +58,83 @@ class User
         return false;
     }
 
+    public static  function  checkUserData($email,$password){
+        $db = Db::getConnection();
+
+        $sql = 'SELECT * from user WHERE email = :email AND password = :password';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':email',$email,PDO::PARAM_STR);
+        $result->bindParam(':password',$password,PDO::PARAM_STR);
+        $result->execute();
+
+        $user = $result->fetch();
+        if($user){
+            return $user['id'];
+        }
+        return false;
+    }
+
+    public static function auth($userId)
+    {
+        $_SESSION['user'] = $userId;
+    }
+    public static function checkLogged()
+    {
+
+        if(isset($_SESSION['user'])){
+            return $_SESSION['user'];
+        }
+        header("Location: /user/login");
+    }
+    public static function getUserById($id)
+    {
+        if ($id){
+            $db = Db::getConnection();
+            $sql = 'SELECT * FROM user WHERE id = :id';
+
+            $result = $db->prepare($sql);
+            $result ->bindParam(':id',$id,PDO::PARAM_INT);
+
+            $result->setFetchMode(PDO::FETCH_ASSOC);
+            $result->execute();
+
+            return $result->fetch();
+        }
+    }
+    public static function edit($id,$name,$password)
+    {
+        $db = Db::getConnection();
+
+        $sql= "UPDATE user
+               SET name = :name,password = :password
+               WHERE id = :id";
+
+        $result = $db->prepare($sql);
+        $result ->bindParam(':id',$id,PDO::PARAM_INT);
+        $result->bindParam(':name', $name, PDO::PARAM_STR);
+        $result->bindParam(':password', $password, PDO::PARAM_STR);
+        return $result->execute();
+    }
+
+    public static function isGuest()
+    {
+        if (isset($_SESSION['user'])) {
+            return false;
+        }
+        return true;
+    }
+
+    /**
+     * Проверяет телефон: не меньше, чем 10 символов
+     */
+    public static function checkPhone($phone)
+    {
+        if (strlen($phone) >= 10) {
+            return true;
+        }
+        return false;
+    }
+
+
 }
